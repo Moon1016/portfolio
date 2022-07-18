@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="프로필 링크">
+    <meta property="og:description" content="간단한 링크 트리 연습">
+    <meta property="og:image" content = "profile.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lee Yeongmin portfolio</title>
+    <style>
+        body {
+            background-color: darkcyan;
+        }
+        .profile {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            border: 2px solid white;
+            background-image: url('profile.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        .main {
+            margin-top: 20px;
+            color: white;
+            font-size: 20px;
+        }
+        .sub {
+            color: white;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap > a {
+            width: 300px;
+            height: 50px;
+
+            background-color: white;
+            border-radius: 8px;
+
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: bold;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color:#44398a;
+
+            text-decoration: none;
+            box-shadow: 4px 3px 5px 0px black;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">Lee Yeongmin</h1>
+        <p class="sub">대단한 개발자</p>
+        <a href="https://kscms.ks.ac.kr/kor/Main.do">경성대학교 Main</a>
+        <a href="https://kscms.ks.ac.kr/global/Main.do">경성대학교 KMOVE</a>
+        <a href="http://ipp.ks.ac.kr/">경성대학교 IPP</a>
+        <a href="https://kscms.ks.ac.kr/linc/Main.do">경성대학교 Link 3.0</a>
+    </div>
+</body>
+</html>
