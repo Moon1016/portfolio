@@ -29,6 +29,8 @@ button:nth-child(4n+3), button:last-child  {    //child(4n+2) -> child(4n+3)
     background-color: orange;
 }
 ```
+![1](https://user-images.githubusercontent.com/109051985/183335171-3fc916aa-ceed-4d92-a49e-487d4fbd7842.PNG)
+
 `js`に追加及び修正
 ```js
 compute() {
