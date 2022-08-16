@@ -15,7 +15,7 @@
 
 修正本:
 
-`html`にこのコードを追加して、
+`html`にこのコードを追加
 ```js
 <button data-type="operator" class ="squared">^</button>
 ```
